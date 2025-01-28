@@ -1,0 +1,41 @@
+# Node modules
+/node_modules/
+
+# Vite cache
+/.vite/
+
+# Build output
+/dist/
+
+# Log files
+*.log
+
+# Dependency directory
+/package-lock.json
+/yarn.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# .env files (Sensitive data)
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+
+# npm and yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous files
+*.tgz
+*.swp
+
+vite.config.js
+eslint.config.js
+package.json

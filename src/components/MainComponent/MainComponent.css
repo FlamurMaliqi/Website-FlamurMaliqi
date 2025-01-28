@@ -1,0 +1,22 @@
+.center {
+    display: flex;             
+    justify-content: center;   
+    height: 70vh;
+    align-items: center;       
+    text-align: center;        
+  }
+  
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  
+  .left-center {
+   margin-right: 100px;
+  }
+  
+  .name {
+    font-size: 5rem;
+    font-family: Pixelify Sans;
+  }
