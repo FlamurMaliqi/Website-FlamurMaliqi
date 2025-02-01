@@ -5,4 +5,14 @@
 .name-header {
     font-family: Pixelify Sans;
     font-size: 1.5rem;
+    color: #404142;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-components {
+    display: flex;
+    justify-content: space-evenly;
 }

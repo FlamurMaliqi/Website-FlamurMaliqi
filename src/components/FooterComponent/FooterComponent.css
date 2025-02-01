@@ -1,0 +1,20 @@
+.footer {
+    border-top: 1px solid grey;
+    margin-top: auto;
+}
+
+.footer-title {
+    font-family: Pixelify Sans;
+    font-size: 1.3rem;
+}
+
+.footer-element {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-component {
+    display: flex;
+    justify-content: space-evenly;
+}
