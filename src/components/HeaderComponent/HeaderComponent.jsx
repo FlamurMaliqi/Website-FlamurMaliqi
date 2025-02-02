@@ -5,11 +5,21 @@ function HeaderComponent() {
     return (
         <div className="header">
             <ul className="header-components">
-                <li className="name-header">&lt;/&gt; Flamur Maliqi</li>
-                <li className="name-header tabs">Projects</li>
-                <li className="name-header tabs">Experience</li>
-                <li className="name-header tabs">Education</li>
-                <li className="name-header tabs">Resume</li>
+                <li className="name-header">
+                    <a href="/">&lt;/&gt; Flamur Maliqi</a>
+                </li>
+                <li className="name-header tabs">
+                    <a href="/projects">Projects</a>
+                </li>
+                <li className="name-header tabs">
+                    <a href="/experience">Experience</a>
+                </li>
+                <li className="name-header tabs">
+                    <a href="/education">Education</a>
+                </li>
+                <li className="name-header tabs">
+                    <a href="/resume">Resume</a>
+                </li>
             </ul>
         </div>
     );

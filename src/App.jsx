@@ -12,7 +12,7 @@ import ResumeComponent from "./components/ResumeComponent/ResumeComponent";
 function App() {
   return (
     <Router>
-        <HeaderComponent />
+        <HeaderComponent className="header"/>
           <Routes>
             <Route path="/" element={<MainComponent />} />
             <Route path="/projects" element={<ProjectsComponent />} />
