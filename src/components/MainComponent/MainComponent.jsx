@@ -9,7 +9,7 @@ function MainComponent() {
       <h1 className="name">Flamur Maliqi</h1>
       <p>Software Developer, CS Student</p>
       </div>
-      <img src={profilePic} alt="Flamur Maliqi's profile" />
+      <img src={profilePic} alt="Flamur Maliqi's profile" className='profilePic'/>
     </div>
   );
 }

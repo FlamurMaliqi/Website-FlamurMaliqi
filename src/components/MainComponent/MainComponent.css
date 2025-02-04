@@ -6,7 +6,7 @@
     text-align: center;        
   }
   
-  img {
+  .profilePic {
     border-radius: 50%;
     object-fit: cover;
     margin-top: 20px;

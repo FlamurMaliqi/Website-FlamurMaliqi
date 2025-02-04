@@ -1,0 +1,50 @@
+.job-container {
+    border: 1px solid #9a9a9a;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.job-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.content {
+    margin: 20px;
+    font-family: Pixelify Sans;
+}
+
+.job-title {
+    font-size: 1.8rem;
+}
+
+.job-tags {
+    margin-top: 5px;
+}
+
+.job-tag {
+    border: 1px solid #D3D3D3;
+    border-radius: 9px;
+    margin-right: 5px;
+    padding: 3px 8px;
+}
+
+.job-dates {
+    margin-top: 1rem;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 7px;
+}
+
+.job-duration {
+    margin-top: 1rem;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 7px;
+}
+
+.job-description {
+    margin-top: 1rem;
+}
