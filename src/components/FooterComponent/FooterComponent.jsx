@@ -19,8 +19,15 @@ function FooterComponent() {
                 <li>
                     <div className="footer-element">
                         <label className="footer-title">Follow</label>
-                        <label>Symbole(linkedin) + github</label>
+                        <div>
+                            <a href="https://www.linkedin.com/in/flamur-m-1a8267258/">
+                                <img src="../../../public/linkedin.png" className="footer-symbol"></img>
+                            </a>
+                            <a href="https://github.com/FlamurMaliqi">
+                                <img src="../../../public/github-logo.png" className="footer-symbol"></img>
+                            </a>
                     </div>
+                        </div>
                 </li>
             </ul>
         </div>

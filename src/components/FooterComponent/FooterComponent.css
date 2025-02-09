@@ -18,3 +18,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.footer-symbol {
+    width: 1.5rem;
+    margin: 0.2rem;
+}
