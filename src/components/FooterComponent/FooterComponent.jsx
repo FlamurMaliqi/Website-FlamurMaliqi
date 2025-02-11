@@ -26,6 +26,9 @@ function FooterComponent() {
                             <a href="https://github.com/FlamurMaliqi">
                                 <img src="../../../public/github-logo.png" className="footer-symbol"></img>
                             </a>
+                            <a href="https://linktr.ee/flamurmaliqi">
+                                <img src="../../../public/linktree-logo-icon.png" className="footer-symbol"></img>
+                            </a>
                     </div>
                         </div>
                 </li>
